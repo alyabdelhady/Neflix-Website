@@ -1,0 +1,52 @@
+.cover {
+  background-image: url("./../../public/images/a22.jpg");
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.cover span,
+.cover h1 {
+  color: white;
+  animation-name: eloo;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+.cover h2 {
+  color: red;
+  animation-name: eloo;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+.cover h1 {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+}
+
+.cover h2 {
+  position: absolute;
+  top: 300px;
+  left: 250px;
+}
+
+@keyframes eloo {
+  from {
+    transform: translateX(-500px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover h1 {
+    position: absolute;
+    left: 70px;
+    top: 300px;
+  }
+
+  .cover h2 {
+    position: absolute;
+    left: 150px;
+    top: 350px;
+  }
+}

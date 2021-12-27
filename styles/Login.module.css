@@ -1,0 +1,78 @@
+.gradient_form {
+  width: 100%;
+  margin: auto;
+  background-image: url("./../public/images/a22.jpg");
+ 
+}
+
+.login_form{
+  margin-top: 60px;
+}
+
+.card {
+  border-radius: 30px;
+  box-shadow: 1px 1px 8px 2px;
+}
+
+.form {
+  width: 40%;
+  margin: auto;
+  
+}
+
+.login_form h1 {
+  animation-name: logo;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  color: red;
+}
+
+.form p {
+  padding: 20px 0;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.validate_massage p {
+  text-align: left;
+  font-size: 13px;
+  color: red;
+}
+
+.btn {
+ background-color: red;
+ color: white;
+ font-size: large;
+ padding: 5px 40px;
+ outline: none;
+ border: 2px solid red;
+ border-radius: 5px;
+}
+
+.btn:hover{
+  border: 2px solid rgb(85, 36, 36);
+}
+
+@media screen and (max-width: 968px) {
+  .gradient_form {
+    width: 80%;
+    margin: auto;
+  }
+  .form {
+    width: 220px;
+    margin: auto;
+  }
+  .login_form img {
+    width: 70%;
+  }
+  .form p {
+    font-size: 13px;
+  }
+}
+
+@keyframes logo {
+  from {
+    transform: translateY(-500px);
+  }
+}

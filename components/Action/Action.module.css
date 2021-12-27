@@ -1,0 +1,43 @@
+.action_movie {
+  display: flex;
+  width: 98%;
+  margin: auto;
+}
+.parent_action img {
+  height: 100%;
+  width: 120px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.parent_action img:hover {
+  transform: scale(1.1);
+}
+
+.parent_action {
+  background-color: black;
+  height: 40vh;
+}
+
+.title {
+  color: white;
+  padding: 20px 0;
+  font-weight: bold;
+  width: 92%;
+  margin: auto;
+}
+
+.prev_button,
+.next_button {
+  outline: none;
+  border: none;
+  background-color: black;
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .parent_action img {
+    margin: 0 6px;
+  }
+}

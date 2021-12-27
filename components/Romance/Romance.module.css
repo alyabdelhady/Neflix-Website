@@ -1,0 +1,44 @@
+.romance_movie {
+  display: flex;
+  width: 98%;
+  margin: auto;
+}
+
+.parent_romance img {
+  height: 100%;
+  width: 120px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.parent_romance img:hover {
+  transform: scale(1.1);
+}
+
+.parent_romance {
+  background-color: black;
+  height: 40vh;
+}
+
+.title {
+  color: white;
+  padding: 20px 0;
+  font-weight: bold;
+  width: 92%;
+  margin: auto;
+}
+
+.prev_button,
+.next_button {
+  outline: none;
+  border: none;
+  background-color: black;
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .parent_romance img {
+    margin: 0 6px;
+  }
+}
